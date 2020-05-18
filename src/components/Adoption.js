@@ -69,6 +69,7 @@ export default class Adoption extends Component {
     adoptCat = () => {
 
         this.context.onDeleteCat();
+        this.context.onDeletePerson();
         this.props.history.push({
             pathname: '/success',
             state: this.context.cats
@@ -78,6 +79,7 @@ export default class Adoption extends Component {
 
     adoptDog = () => {
         this.context.onDeleteDog();
+        this.context.onDeletePerson();
         this.props.history.push({
             pathname: '/success',
             state: this.context.dogs
