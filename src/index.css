@@ -31,6 +31,9 @@ p {
 p, img {
   margin-top: 10px;
 }
+label {
+  margin-right: 10px;
+}
 li {
   list-style-type: none;
   font-style: italic;
