@@ -1,5 +1,3 @@
 export default {
-
-    API_ENDPOINT: "http://localhost:8000/api"
-
+    API_ENDPOINT: "https://petful-server-glen-muhiddin.herokuapp.com/api"
 }
