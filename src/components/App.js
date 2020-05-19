@@ -7,7 +7,6 @@ import { Switch, Route } from 'react-router-dom';
 import AdoptSuccess from './AdoptSuccess';
 
 class App extends Component {
-
   state = {
     people: [],
     cats: [],

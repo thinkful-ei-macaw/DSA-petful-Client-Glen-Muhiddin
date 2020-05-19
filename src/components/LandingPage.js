@@ -7,10 +7,12 @@ export default class LandingPage extends Component {
             <div className="landing-page">
                 <main>
                     <header>
-                        <h1>Welcome to the Petful Adoption Page</h1>
+                        <h1>Welcome to GlenM Pet Adoption Page</h1>
                     </header>
                     <p>
-                        We are Petful! The FIFO adoption organization!
+                    The GlenM is the place for pet adoptions. 
+                    We have a large selection of cats and dogs at our GlenM Campus. 
+                    Our animals are spayed-neutered, microchipped and given age-appropriate vaccines.
                     </p>
                     <Link to="/adoption">
                         <button type="button">Enter site</button>

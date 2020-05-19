@@ -12,7 +12,6 @@ export default class Adoption extends Component {
 
     state = {
         currentUser: '',
-        // currentCat: this.context.cats,
         userCanAdopt: false,
         interval: null,
     }

@@ -4,14 +4,78 @@
 }
 
 body {
-  background-color: brown;
+  background: url('bg.jpg');
   display: flex;
   justify-content: center;
+  font-size: 1.1em;
+  color: lightgreen;
+  font-size: 1.2em;
 }
-div, p, img {
+#root {
+  background: rgba(0,0,0,.5);
+  background-size: cover;
+  padding: 10px 20px;
+  min-width: fit-content;
+  width: max-content;
+  min-height: 100vh;
+  height: max-content;
+}
+
+h1, h2, h3, h4 {
+  color: gold;
+}
+p {
+  color: white;
+  font-size: 1.2em;
+}
+p, img {
   margin-top: 10px;
+}
+li {
+  list-style-type: none;
+  font-style: italic;
 }
 img {
   width: 100%;
   border-radius: 25px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  font-size: 1em;
+}
+input {
+  padding: 10px 15px;
+  margin: 10px 10px 10px 0;
+  border: none;
+  font-size: 1em;
+  outline: none;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+a {
+  color: yellow;
+  font-weight: bold;
+  display: block;
+}
+
+@media only screen and (min-width: 490px) {
+  #root {
+    margin: 0 20%;
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+    min-width: fit-content;
+    width: max-content;
+    min-height: 100vh;
+    height: max-content;
+  }
+  img {
+    width: 80%;
+  }
 }
