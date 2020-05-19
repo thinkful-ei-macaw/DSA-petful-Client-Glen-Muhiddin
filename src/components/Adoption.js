@@ -87,8 +87,6 @@ export default class Adoption extends Component {
 
 
     render() {
-        console.log(this.props.history)
-        console.log(this.context.cats)
         return (
             <div>
                 <h1>Get Ready to Adopt!</h1>
